@@ -1,3 +1,7 @@
+* {
+  font-family: "Segoe UI";
+}
+
 .card {
   border: 1px solid black;
   width: 300px;
@@ -7,9 +11,29 @@
   background-color: #232323;
   border-radius: 10px;
 }
-.body{
+
+.name>h3 {
+  color: white;
+}
+
+.name {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.body {
   background-color: #616161;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
+  height: 80%;
+}
+
+.stats {
+  padding-top: 10px;
+}
+
+.card-stats-type {
+  background-color: firebrick;
+  padding: 5px;
 }
